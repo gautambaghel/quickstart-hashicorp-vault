@@ -3,4 +3,11 @@
 // Include links if helpful. 
 // You don't need to list AWS services or point to general info about AWS; the boilerplate already covers this.
 
-This Quick Start also assumes familiarity with <knowledge expectations specific to this Quick Start>.
+Before you deploy this Quick Start, we recommend that you become familiar with the following AWS services. If you are new to AWS, see https://aws.amazon.com/getting-started/[Getting Started with AWS].
+
+* http://aws.amazon.com/documentation/vpc/[Amazon VPC]
+* http://aws.amazon.com/documentation/ec2/[Amazon EC2]
+* http://aws.amazon.com/elasticloadbalancing[Elastic Load Balancing]
+* https://aws.amazon.com/ec2/autoscaling/[Amazon EC2 Auto Scaling]
+
+NOTE: The Center for Internet Security (CIS) AMI for Ubuntu Linux 16.04 LTS is available as an optional, hardened AMI type. The image of Ubuntu Linux 16.04 LTS is preconfigured by CIS according to their benchmark recommendations. For more information, see https://aws.amazon.com/marketplace/pp/B078TPPXV2?qid=1588650469654[CIS Ubuntu Linux 16.04 LTS Benchmark — Level 1].

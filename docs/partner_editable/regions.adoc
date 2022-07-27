@@ -3,3 +3,21 @@
 // If your Quick Start requires custom info (e.g., the product is limited to a specific Region and that will not change), uncomment the custom_supported_regions attribute in the _settings.adoc file. Add the custom info here. It then appears in the generated guide instead of the boilerplate.
 
 // Do not list all the supported Regions or provide any other info that will go out of date when new Regions are released or when services add support for more Regions.
+
+This deployment includes AWS Systems Manager Parameter Store, which isn’t
+currently supported in all AWS Regions. For a current list of supported Regions, see
+https://docs.aws.amazon.com/general/latest/gr/aws-service-information.html[Service endpoints and quotas] in the AWS documentation.
+This deployment also includes the CIS Ubuntu Linux 16.04 LTS Benchmark — Level 1
+AMI. Please note that this AMI may not be available in all AWS Regions. See the https://aws.amazon.com/marketplace/pp/B078TPPXV2?qid=1588650469654[AWS
+Market Place listing] for more information.
+
+
+== Key pair
+
+Ensure that at least one Amazon EC2 key pair exists in your AWS account in the Region
+where you plan to deploy the Quick Start. Make note of the key pair name. You need it
+during deployment. To create a key pair, follow the https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[instructions in the AWS
+documentation].
+
+For testing or proof-of-concept purposes, we recommend creating a new key pair
+instead of using one that’s already being used by a production instance.

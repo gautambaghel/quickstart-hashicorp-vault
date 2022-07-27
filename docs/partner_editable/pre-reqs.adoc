@@ -2,14 +2,30 @@
 
 ==== Prepare your AWS account
 
-Verify that your AWS account has the permissions required to create the resources listed in the link:#_resource_quotas[Resource quotas] section of this guide.
+
+1. If you don’t already have an AWS account, create one at http://aws.amazon.com by
+following the on-screen instructions.
+
+2. Use the region selector in the navigation bar to choose the AWS Region where you want
+to deploy {partner-product-short-name} on AWS.
+
+3. Verify that your AWS account has the permissions required to create the resources listed in the link:#_resource_quotas[Resource quotas] section of this guide.
+
+4. Create a http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-key-pairs.html[key pair] in your preferred region.
+
+5. Before launching the Quick Start, you must log in to the AWS Management Console with IAM permissions for the resources and actions the templates deploy. The AdministratorAccess managed policy within IAM provides sufficient permissions, although your organization may choose to use a custom policy with more restrictions.
+
+6. If necessary, request a https://console.aws.amazon.com/servicequotas/home?region=us-east-1#!/[service quota increase] for the Amazon EC2 t2.medium instance
+type. You might need to do this if you already have an existing deployment that uses this
+instance type, and you think you might exceed the http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-resource-limits.html[default quota] with this reference
+deployment. 
 
 // Describe any setup required in the AWS account prior to template launch.
 
-==== Prepare your {partner-company-name} account
+// ==== Prepare your {partner-company-name} account
 
 // Describe any setup required in the partner portal/account prior to template launch.
 
-==== Prepare for the deployment
+// ==== Prepare for the deployment
 
 // Describe any preparation required to complete the product build, such as obtaining licenses or placing files in S3.

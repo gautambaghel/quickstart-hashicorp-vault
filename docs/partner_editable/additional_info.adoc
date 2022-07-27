@@ -12,12 +12,22 @@
 
 _Add any best practices for using the software._
 
-== Security
+// == Security
 // Provide post-deployment best practices for using the technology on AWS, including considerations such as migrating data, backups, ensuring high performance, high availability, etc. Link to software documentation for detailed information.
 
-_Add any security-related information._
+// _Add any security-related information._
 
 == Other useful information
 //Provide any other information of interest to users, especially focusing on areas where AWS or cloud usage differs from on-premises usage.
 
-_Add any other details that will help the customer use the software on AWS._
+AWS services
+* http://docs.aws.amazon.com/AWSEC2/latest/WindowsGuide/[Amazon EC2]
+* http://aws.amazon.com/documentation/vpc/[Amazon VPC]
+
+HashiCorp Vault
+* https://www.hashicorp.com/[HashiCorp]
+* https://www.vaultproject.io/[Vault]
+* https://www.hashicorp.com/vault.html[Vault Enterprise]
+
+Quick Start reference deployments
+* https://aws.amazon.com/quickstart/[AWS Quick Start]
